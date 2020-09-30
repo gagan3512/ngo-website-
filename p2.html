@@ -1,0 +1,175 @@
+<html>
+<meta charset="utf-8">
+    <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+  </head>
+  <body>
+  	<header>
+      	<nav class="navbar navbar-expand-sm bg-dark fixed-top">
+      		<div class="container">
+      		<a href="index.html" class="navbar-brand" style="color: #778899;font-size: 2.2em">Gia Foundation</a>
+      		<button class="navbar-toggler" data-toggle="collapse" data-target="#navid">
+      			<span class="navbar-toggler-icon"></span>
+      		</button>
+      	<div class="collapse navbar-collapse" id="navid">
+      		    <ul class="navbar-nav text-center ml-auto">
+            <li class="nav-item">
+              <a href="p.html" class="nav-link" style="color: white">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="p1.html" class="nav-link" style="color: white">About us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active" style="color: white">Our Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="p3.html" class="nav-link" style="color: white">Our Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a href="p4.html" class="nav-link" style="color: white">Volunteer</a>
+            </li>
+            <li class="nav-item">
+                <a href="p2.html" class="nav-link" style="color: white">Contact us</a>
+            </li>
+
+          </ul>
+      	</div>
+      	</div>
+      	</nav>
+      </header>
+      <div class="col-sm-*">
+       <img src="img18.jpg" class='float-right' width="100%" height="400px">    
+      <div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="img17.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="usa">Australia</option>
+
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+   <img src="img19.jpg" class="float-right" width="100%" height="400px">
+      <footer class="bg-dark" style = "margin-top: 100px">
+            <div class="container">
+                  <div class="row text-center" style="background-color: #D3D3D3">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                              <p><b>Address:</b>Sector 22, Chandigarh</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                              <p><b>Phone:</b>324345346457</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                              <a href="p2.html" style="text-decoration: none;color: black">CONTACT US</a>
+                        </div>
+                  </div><hr>
+            <div class="row">
+                 
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12" style="color: white">
+                       <p>
+                        We are wholly committed for<br>
+                        bringing social welfare and sustainable development<br>
+                        in the society.
+                       </p> 
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-center" >
+                        
+                        <input type="text" name="text" placeholder="Email Address"><a href="signup.html" class="btn btn-danger">SIGN UP NOW</a><br>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                  </div>
+            </div>
+      </div><hr>
+      </footer>
+  </body>
+  </html>
